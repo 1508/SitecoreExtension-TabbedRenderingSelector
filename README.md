@@ -21,6 +21,8 @@ Install via nuget
   PM> Install-Package SitecoreExtension.TabbedRenderingSelector
 </pre>
 
+Please notice that the Sitecore folder gets added to you project because nuget copies on Override xml file to Sitecore Shell Override, it is a feature of Nuget packages and you may contribute a fix if you have a pretty init.ps model e.g.. 
+
 ## How it works 
 The code is activated with the SelectRendering.xml that is copied to sitecore\shell\Override and lets you override default Sitecore renderings.
 
