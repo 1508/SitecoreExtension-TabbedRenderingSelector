@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>SitecoreExtension.TabbedRenderingSelector</id>
+		<version>1.0</version>
+		<authors>Cognifide</authors>
+		<owners>1508 A/S</owners>
+		<licenseUrl>http://creativecommons.org/licenses/by/3.0/</licenseUrl>
+		<projectUrl>https://github.com/1508/SitecoreExtension-TabbedRenderingSelector</projectUrl>
+		<iconUrl>http://www.sitecore.net/favicon.ico</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<summary>
+			Sitecore Shell Override that Adds Tabs to the Select Rendering based on the rendering folder structure.
+		</summary>
+		<description>
+			Overrides the default Select Rendering Shell with a tabbed view. 
+			Based on blog post by Kacper Chomicz, Software Engineer at cognified
+			http://www.cognifide.com/blogs/sitecore/sitecore-tabbed-select-a-rendering-dialog/
+			
+			Requires Sitecore 6.x.
+		</description>
+		<releaseNotes>
+			Version 1.0 - Initial release.
+		</releaseNotes>
+		<copyright>http://creativecommons.org/licenses/by/3.0/</copyright>
+		<tags>Sitecore Shell Override</tags>
+		<dependencies>
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="**\*.*" exclude="Build-NuGet-Package.cmd;NuGet.exe" />
+	</files>
+</package>
