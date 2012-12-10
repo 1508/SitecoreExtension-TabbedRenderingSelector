@@ -2,7 +2,7 @@
 <package >
 	<metadata>
 		<id>SitecoreExtension.TabbedRenderingSelector</id>
-		<version>1.0</version>
+		<version>1.1</version>
 		<authors>Cognifide</authors>
 		<owners>1508 A/S</owners>
 		<licenseUrl>http://creativecommons.org/licenses/by/3.0/</licenseUrl>
@@ -20,6 +20,7 @@
 			Requires Sitecore 6.x.
 		</description>
 		<releaseNotes>
+			Version 1.1 - Typo in namespace.
 			Version 1.0 - Initial release.
 		</releaseNotes>
 		<copyright>http://creativecommons.org/licenses/by/3.0/</copyright>
