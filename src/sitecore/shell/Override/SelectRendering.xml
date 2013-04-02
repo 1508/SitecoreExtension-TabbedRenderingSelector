@@ -16,7 +16,7 @@
                 <TreeviewEx ID="Treeview" DataContext="DataContext" ShowRoot="true" Click="Treeview_Click" ContextMenu='Treeview.GetContextMenu("contextmenu")' />
               </Scrollbox>
 
-              <VSplitter ID="TreeSplitter" GridPanel.Class="scThinSplitter" Target="left" />
+              <VSplitter ID="TreeSplitter" GridPanel.Class="scThinSplitter" GridPanel.Style="height:0;" Target="left" />
               <Scrollbox ID="Renderings" Width="100%" Height="100%" Class="scScrollbox scFixSize scFixSize4" Background="white" Padding="0px" ></Scrollbox>
               <Tabstrip ID="Tabs" Width="100%" Height="100%" GridPanel.Height="100%" ></Tabstrip>
         </GridPanel>
